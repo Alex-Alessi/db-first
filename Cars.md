@@ -1,0 +1,12 @@
+| name                | type        | attributes      | key     |
+| ------------------- | ----------- | --------------- | ------- |
+| id                  | BIGINT(20)  | AUTOINCREMENT   | PRIMARY |
+| marca               | VARCHAR(80) | NOT NULL        |         |
+| modello             | VARCHAR(20) | NOT NULL        |         |
+| data_inserimento    | DATE        | NOT NULL        |         |
+| immatricolazione    | SMALLINT    | NOT NULL        |         |
+| chilometri_percorsi | INT         | NOT NULL        |         |
+| cambio              | CHAR(10)    | NOT NULL        |         |
+| carburante          | CHAR(10)    | NOT NULL        |         |
+| colore              | CHAR(15)    | NOT NULL        |         |
+| targa               | CHAR(7)     | NOT NULL-UNIQUE |         |
